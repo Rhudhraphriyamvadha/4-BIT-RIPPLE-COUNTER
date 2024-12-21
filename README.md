@@ -39,7 +39,7 @@ Developed by: RHUDHRA PHRIYAMVADHA K S
 RegisterNumber: 24900189
 ```
 ```
-module upcounter(out,clk,rst);
+module downcounter(out,clk,rst);
 input clk,rst;
 output reg [3:0]out;
 always @ (posedge clk)
